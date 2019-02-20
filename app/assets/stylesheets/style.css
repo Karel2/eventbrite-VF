@@ -1,0 +1,280 @@
+/*general*/
+
+.fbox {
+	display: flex;
+}
+
+body {
+	font-family: "Nunito Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial;
+	background-color: #fff;
+	color: #919aa1;
+	margin-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
+p {
+	margin-bottom: 1rem;
+}
+
+small {
+	font-size: 80%;
+}
+
+/* index */
+
+
+/* resource */
+.container {
+	padding: 50px;
+	background-color: rgb(230, 230, 232);
+	width: 1250px;
+	margin-top: 20px;
+	display: flex;
+	flex-flow: wrap;
+	border-radius: 3px;
+	/* align-content: space-between;
+ justify-content: space-between;
+	border: solid black; */
+}
+
+.container_resource .linebreaker {
+	width: 100%;
+	height: 50px;
+}
+
+.icons {
+		margin-left: 30px;
+	display: flex;
+	align-items: center;
+	}
+
+.container_resource .fas {
+	margin: 50px;
+}
+
+
+.social_networks {
+	display: flex;
+	justify-content: center;
+	margin-right: 50px;
+}
+/*form*/
+.form {
+	margin-top: 100px;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.form-group {
+
+	width: 400px;
+}
+
+#checkbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/*footer*/
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	background-color: #343a40;
+}
+
+.footer-item {
+	display: flex;
+	align-items: center;
+	margin-left: 0px;
+	width: 50%;
+	flex-direction: row;
+}
+
+.footer-icon {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 50px;
+	width: 50%;
+}
+
+.foot-link {
+	margin: 40px;
+}
+
+.fab {
+	margin: 20px;
+}
+
+.footer a {
+
+	color: #fff;
+}
+
+.footer a:hover {
+	color: #fff;
+}
+
+/*navbar*/
+
+.navbar {
+	justify-content: space-between;
+}
+
+.navbar-nav {
+	justify-content: flex-end;
+}
+
+/*banner*/
+
+.bg-img-hero {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: linear-gradient(to right, pink, lightblue);
+}
+
+#big_banner {
+	background-image: url(https://images.ecosia.org/Deryn9xvbK0mYLdrQUOm-ptBAPg=/0x390/smart/https%3A%2F%2Fwww.langtons.com.au%2Fmedia%2F18228%2Flng_bordeaux_night.jpg);
+	height: 600px;
+}
+
+#big_banner .lead {
+	text-shadow: 0 0 8px black;
+	color: white;
+	text-align: right;
+}
+
+#btnban {
+	background-color: black;
+	color: white;
+	opacity: 0.6;
+	border: solid white;
+}
+
+/*card*/
+
+#event {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.card{
+	height: 20rem; 
+	width: 20rem;
+}
+
+#participant{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+
+}
+
+.participant_card{
+	width: 100%;
+	max-height: 6rem;
+}
+
+#city{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px;
+	align-items: center;
+}
+
+.city_card{
+	max-height: 4rem;
+}
+
+/*comment*/
+
+.box{
+	text-align: center;
+	margin-top: 5%;
+}
+.avatar{
+	color: black;
+	margin-top: 1%;
+	display: flex;
+	justify-content: center;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+}
+
+.box_card_1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.box_card_2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card_comment{
+	height: 20rem; 
+	width: 40rem;
+}
+.group_card_comment{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin-top: 5%;
+	margin-left: 0;
+}
+.card-title{
+	display: flex;
+	justify-content: center;
+}
+
+#exampleTextarea{
+	resize: none;
+}
+
+#comment_btn{
+	margin-left: 39%;
+	background-color: #6c757d;
+	color: white;
+	opacity: 0.4;
+	border: none;
+	border-radius: 3px;
+	width: 100px;
+}
+
+.img-fluid {
+	border-radius: 20px
+}
+
+.row:nth-child(4n+1) {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+div.col-md-5 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.btn-primary {
+	border-radius: 8px;
+}
